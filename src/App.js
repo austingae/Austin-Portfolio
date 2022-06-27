@@ -1,5 +1,7 @@
 import './App.css';
 
+import React from "react";
+
 import profileImage from './Images/profile-image.jpeg';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,7 +15,13 @@ import myResume from './PDF/Resume.pdf';
 
 import ProjectTemplate from './Components/ProjectTemplate';
 
+
+import emailjs from '@emailjs/browser';
+
+import ContactUs from './Components/ContactUs';
+
 function App() {
+
   return (
     <>
       <header>
@@ -44,9 +52,12 @@ function App() {
           <ProjectTemplate title='Lorem Title' description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.'/>
           <ProjectTemplate title='Lorem Title' description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.'/>
           <ProjectTemplate title='Lorem Title' description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.'/>
-          
         </div>
       </main>
+
+      <hr className='line'></hr>
+      
+      <ContactUs />
     </>
   );
 }
