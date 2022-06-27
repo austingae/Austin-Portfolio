@@ -31,3 +31,8 @@
 
   cursor: pointer;
 }
+
+.project__button:hover {
+  background-color: black;
+  color: white;
+}

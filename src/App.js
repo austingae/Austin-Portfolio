@@ -4,7 +4,6 @@ import React from "react";
 
 import ProjectTemplate from './Components/ProjectTemplate';
 
-
 import ContactUs from './Components/ContactUs';
 import AboutMe from './Components/AboutMe';
 
@@ -59,5 +58,5 @@ HTML & CSS & Javascript Approach:
   - Parent Div's Width = Child Div's Width+Padding+Border+Margin
   - Parent Div's Width = Block Element's Width+Padding+Border+Margin
   - However, Parent Div's Width != Inline Element's Width+Padding+Border+Margin
-  5) Javascript 
+  5) Javascript - Yes. 
   */

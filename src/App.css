@@ -18,8 +18,6 @@ body {
   --light-white-color: rgb(239,239,241);
 }
 
-
-
 .line {
   width: 80%;
   
@@ -27,7 +25,6 @@ body {
   border-style: solid;
   border-width: 0.05px;
 }
-
 
 .my-projects {
   width: 340px;
@@ -39,6 +36,6 @@ body {
 }
 
 @media screen and (min-width: 768px){
-  
+
 }
 
