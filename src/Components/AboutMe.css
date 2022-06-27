@@ -1,0 +1,63 @@
+.about-me {
+  width: 340px;
+  margin-inline: auto;
+  /*
+  Parent Div's Width = Child Div's Width + Padding + Border + Margin
+  375px = 340px + 0px + 0px + margin-inline: auto, so (17.5px + 17.5px) 
+  */
+  margin-top: 1.5rem;
+}
+
+.about-me__profile-image {
+  width: 150px;
+  border-radius: 20px;
+  margin-right: 1.5rem;
+  float: left;
+}
+
+.about-me__social-media-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-top: 1.3rem;
+
+}
+
+.about-me__social-media-icon {
+  margin-right: 0.8rem;
+}
+
+.about-me__linkedin {
+  color: var(--linkedin-color);
+}
+
+.about-me__github {
+  color: var(--github-color);
+}
+
+.about-me__email {
+  color: var(--email-color);
+}
+
+.about-me__resume-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-top: 1.0rem;
+}
+
+.about-me__view-my-resume {
+  margin-left: 0.5rem;
+  font-size: 13px;
+}
+
+.about-me__resume {
+  color: var(--resume-color);
+}
+
+.about-me__view-my-resume {
+  color: black;
+  text-decoration: none;
+}
