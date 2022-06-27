@@ -11,6 +11,8 @@ import { faFile } from '@fortawesome/free-solid-svg-icons';
 
 import myResume from './PDF/Resume.pdf';
 
+import ProjectTemplate from './Components/ProjectTemplate';
+
 function App() {
   return (
     <>
@@ -36,19 +38,16 @@ function App() {
       <main>
         <div className='my-projects'>
           <h2 className='my-projects__title'>My Projects</h2>
-          <div className='project'>
-            <h3 className='project__title'>Project Title</h3>
-            <p className='project__description'>Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.</p>
-            <div className='project__buttons-container'>
-              <button className='project__button'>View the Website</button>
-              <button className='project__button'>View the Code</button>
-            </div>
-          </div>
+          <ProjectTemplate title='Lorem Title' description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.'/>
+          <ProjectTemplate title='Lorem Title' description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.'/>
+          <ProjectTemplate title='Lorem Title' description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.'/>
+          <ProjectTemplate title='Lorem Title' description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.'/>
+          <ProjectTemplate title='Lorem Title' description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.'/>
+          <ProjectTemplate title='Lorem Title' description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.'/>
+          
         </div>
       </main>
     </>
-
-
   );
 }
 

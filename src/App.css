@@ -5,8 +5,9 @@
 }
 
 body {
-  height: 2000px;
+  height: 4000px;
 }
+
 :root {
   --linkedin-color: rgb(1,118,181);
   --github-color: rgb(242, 144, 16);
@@ -100,36 +101,6 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.project {
-  width: auto;
-  padding: 1rem;
-  border-radius: 5px;
-  text-align: center;
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
-}
 
-.project__description {
-  font-size: 14px;
-  margin: 0.5rem 0rem 2rem 0rem;
-}
-
-.project__buttons-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.project__button {
-  color: black;
-  background-color: white;
-  border-style: solid;
-  border-color: black;
-  border-width: 0.05rem;
-  border-radius: 10px;
-  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
-  width: 115px;
-
-  cursor: pointer;
-}
 
 
