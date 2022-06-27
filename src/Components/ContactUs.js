@@ -2,6 +2,8 @@ import React from 'react'
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 
+import './ContactUs.css';
+
 const ContactUs = () => {
 
   const form = useRef();
@@ -19,14 +21,23 @@ const ContactUs = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="name" />
-      <label>Email</label>
-      <input type="email" name="email" />
-      <label>Message</label>
-      <textarea name="content" />
-      <input type="submit" value="Send" />
+    <form className='contact-me-form'ref={form} onSubmit={sendEmail}>
+      <h2 className='contact-me-form__title'>Contact Me</h2>
+      <div className='contact-me-form__item'>
+        <label className='contact-me-form__item-label'>Your Name</label>
+        <input className='contact-me-form__input' type="text" name="name" />
+      </div>
+      <div className='contact-me-form__item'>
+        <label className='contact-me-form__item-label'>Email</label>
+        <input className='contact-me-form__input' type="email" name="email" />
+      </div>
+      <div className='contact-me-form__item'>
+        <label className='contact-me-form__item-label'>Message</label>
+        <textarea className='contact-me-form__item-message' name="content" />
+      </div>
+      <div className='contact-me-form__submit-button-container'>
+        <input className='contact-me-form__submit-button' type="submit" value="Send" />
+      </div>
     </form>
   );
 }

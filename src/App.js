@@ -3,22 +3,22 @@ import './App.css';
 import React from "react";
 
 import profileImage from './Images/profile-image.jpeg';
+import myResume from './PDF/Resume.pdf';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 
-import myResume from './PDF/Resume.pdf';
-
 import ProjectTemplate from './Components/ProjectTemplate';
 
-
 import emailjs from '@emailjs/browser';
-
 import ContactUs from './Components/ContactUs';
+
+
+
+
 
 function App() {
 
@@ -57,7 +57,10 @@ function App() {
 
       <hr className='line'></hr>
       
-      <ContactUs />
+      <section>
+        <ContactUs />
+      </section>
+
     </>
   );
 }
