@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/austin-portfolio/static/css/main.d509bc39.css",
-    "main.js": "/austin-portfolio/static/js/main.013bc242.js",
+    "main.css": "/austin-portfolio/static/css/main.5a514ea0.css",
+    "main.js": "/austin-portfolio/static/js/main.1a541352.js",
     "static/js/787.17a55517.chunk.js": "/austin-portfolio/static/js/787.17a55517.chunk.js",
+    "static/media/uscsso.png": "/austin-portfolio/static/media/uscsso.24aaf084ad1a2b962d41.png",
     "static/media/profile-image.jpeg": "/austin-portfolio/static/media/profile-image.6e2328154d2a14df2e78.jpeg",
     "static/media/Resume.pdf": "/austin-portfolio/static/media/Resume.3ab8c26b092e94ef8702.pdf",
     "index.html": "/austin-portfolio/index.html",
-    "main.d509bc39.css.map": "/austin-portfolio/static/css/main.d509bc39.css.map",
-    "main.013bc242.js.map": "/austin-portfolio/static/js/main.013bc242.js.map",
+    "main.5a514ea0.css.map": "/austin-portfolio/static/css/main.5a514ea0.css.map",
+    "main.1a541352.js.map": "/austin-portfolio/static/js/main.1a541352.js.map",
     "787.17a55517.chunk.js.map": "/austin-portfolio/static/js/787.17a55517.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d509bc39.css",
-    "static/js/main.013bc242.js"
+    "static/css/main.5a514ea0.css",
+    "static/js/main.1a541352.js"
   ]
 }
