@@ -9,6 +9,8 @@ import AboutMe from './Components/AboutMe';
 
 import USCSSOWebsiteImage from "./Images/uscsso.png";
 
+import Website from "./Components/Website";
+
 function App() {
 
   return (
@@ -25,12 +27,42 @@ function App() {
         <div className='my-projects'>
           <h2 className='my-projects__title'>My Projects</h2>
           <div className='my-projects__grid-container'>
-            <ProjectTemplate title='Lorem Title' description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.'/>
-            <ProjectTemplate title='Lorem Title' description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.'/>
-            <ProjectTemplate title='Lorem Title' description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.'/>
-            <ProjectTemplate title='Lorem Title' description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.'/>
-            <ProjectTemplate title='Lorem Title' description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.'/>
-            <ProjectTemplate title='Lorem Title' description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.'/>
+            <ProjectTemplate 
+              title='US-China Strategic Studies Organization Website' 
+              description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.' 
+              website='https://austingae.github.io/uscsso-website/' 
+              code='https://github.com/austingae/uscsso-website'
+            />
+            <ProjectTemplate 
+              title='Project Title' 
+              description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.' 
+              website='' 
+              code=''
+            />
+            <ProjectTemplate 
+              title='Project Title' 
+              description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.' 
+              website='' 
+              code=''
+            />
+            <ProjectTemplate 
+              title='Project Title' 
+              description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.' 
+              website='' 
+              code=''
+            />
+            <ProjectTemplate 
+              title='Project Title' 
+              description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.' 
+              website='' 
+              code=''
+            />
+            <ProjectTemplate 
+              title='Project Title' 
+              description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.' 
+              website='' 
+              code=''
+            />                                                    
           </div>
         </div>
       </section>
@@ -40,6 +72,8 @@ function App() {
         <ContactUs />
       </section>
     </>
+
+
   );
 }
 
