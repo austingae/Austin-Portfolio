@@ -35,7 +35,46 @@ body {
   margin-bottom: 1.5rem;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1200px) {
 
+  .my-projects {
+    width: 750px;
+    margin-inline: auto;
+  }
+
+  .my-projects__grid-container {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: auto auto auto;
+
+    justify-content: space-around;
+
+  }
+
+  .my-projects__title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
 }
 
+@media screen and (min-width: 1200px) {
+  .my-projects {
+    width: 900px;
+    margin-inline: auto;
+  }
+
+  .my-projects__grid-container {
+    display: grid;
+    grid-template-columns: 430px 430px;
+    grid-template-rows: auto auto auto;
+
+    justify-content: space-around;
+  }
+
+  .my-projects__title {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+}

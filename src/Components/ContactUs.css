@@ -3,7 +3,7 @@
   padding: 20px;
   margin-inline: auto;
 
-  background-color: rgb(24,24,26);
+  background-color: rgb(5,109,81);
 
   border-radius: 10px;
 
@@ -46,12 +46,11 @@
 }
 .contact-me-form__submit-button {
   color: white;
-  background-color: rgb(15,13,16);
+  background-color: rgb(164, 83, 1);
 
   font-size: 14px;
   padding: 0.3rem 1rem 0.3rem 1rem;
   border-style: solid;
-  border-color: white;
   border-width: 0.05rem;
 
   cursor: pointer;
@@ -71,4 +70,26 @@
   color: white;
   font-size: 15px;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-me-form {
+    width: 500px;
+  }
+
+  .contact-me-form__title {
+    font-size: 28px;
+  }
+
+  .contact-me-form__item-label {
+    font-size: 14px;
+  }
+
+  .contact-me-form__input {
+    height: 30px;
+  }
+
+  .contact-me-form__submit-button {
+    font-size: 16px;
+  }
 }

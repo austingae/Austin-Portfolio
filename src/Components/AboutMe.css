@@ -8,6 +8,10 @@
   margin-top: 1.5rem;
 }
 
+.about-me__my-name {
+  margin-bottom: 1rem;
+} 
+
 .about-me__profile-image {
   width: 150px;
   border-radius: 20px;
@@ -21,7 +25,6 @@
   align-items: center;
 
   margin-top: 1.3rem;
-
 }
 
 .about-me__social-media-icon {
@@ -60,4 +63,59 @@
 .about-me__view-my-resume {
   color: black;
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .about-me {
+    width: 500px;
+    margin-inline: auto;
+    /*
+    Parent Div's Width = Child Div's Width + Padding + Border + Margin 
+    */
+    margin-top: 1.5rem;
+  }
+
+  .about-me__my-name {
+    font-size: 40px;
+  }
+
+  .about-me__profile-image {
+    width: 225px;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-me__my-short-description {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-me {
+    width: 800px;
+    margin-inline: auto;
+    /*
+    Parent Div's Width = Child Div's Width + Padding + Border + Margin
+    1440px = 800px + 0px + 0px + margin-inline: auto, so (320px + 320px)
+    */
+  }
+
+  .about-me__my-name {
+    font-size: 45px;
+  }
+
+  .about-me__profile-image {
+    width: 250px;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-me__my-short-description {
+    font-size: 18px;
+  }
+
+  .about-me__social-media-container {
+    margin-top: 2rem;
+  }
+
 }
