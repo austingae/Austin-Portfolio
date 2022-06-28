@@ -24,7 +24,7 @@ const AboutMe = () => {
     <div className='about-me'>
       <h1 className='about-me__my-name'>Hello! <br></br>I am Austin Gae.</h1>
       <img className='about-me__profile-image' src={profileImage}/>
-      <p className='about-me__my-short-description'>Eiusmod ipsum veniam laborum veniam quis minim consequat sit consectetur nisi eu exercitation adipisicing. Voluptate veniam magna nostrud commodo minim ipsum officia exercitation ad voluptate. Nulla duis mollit laborum excepteur eiusmod ea nulla sit. Labore duis eu exercitation sunt velit aliqua occaecat ullamco dolore velit aliqua laborum.</p>
+      <p className='about-me__my-short-description'>I am a front-end web developer, who specializes in HTML, CSS, Javascript, and ReactJS to create awesome websites. I am also comfortable with Git and GitHub to work with other developers in a team. Now, don't just take my word for it, take a look at my projects! </p>
       <div className='about-me__social-media-container'> 
         <a href='https://www.linkedin.com/in/austin-gae/'>
           <FontAwesomeIcon 

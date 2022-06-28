@@ -25,7 +25,7 @@ const ContactUs = () => {
 
   return (
     <form className='contact-me-form'ref={form} onSubmit={sendEmail}>
-      <h2 className='contact-me-form__title'>Contact Me</h2>
+      <h2 className='contact-me-form__title'>Like my Projects? Get in Touch With Me!</h2>
       <div className='contact-me-form__item'>
         <label className='contact-me-form__item-label'>Your Name</label>
         <input className='contact-me-form__input' type="text" name="name" />
@@ -47,7 +47,7 @@ const ContactUs = () => {
           setIsSent(true);
         }}/>
       </div>
-      {isSent && <div className='contact-me-form__confirmation'>Thank you for contacting me. I will get back to you soon.</div>}
+      {isSent && <div className='contact-me-form__confirmation'>Your message has been sent. I will reply to you as soon as possible. </div>}
     </form>
   );
 }
