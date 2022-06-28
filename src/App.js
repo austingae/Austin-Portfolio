@@ -34,8 +34,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      <hr className='line'></hr>
       
       {/*Contact Me*/}
       <section>

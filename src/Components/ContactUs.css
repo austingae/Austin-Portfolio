@@ -45,7 +45,7 @@
   margin-top: 3em;
 }
 .contact-me-form__submit-button {
-  color: white;
+  color: rgb(239,239,241);
   background-color: rgb(164, 83, 1);
 
   font-size: 14px;
@@ -55,6 +55,7 @@
 
   cursor: pointer;
 
+  border-radius: 10px;
   /*Align the Submit Button to the middle of the contact me form*/
   display: block;
   margin-inline: auto;
@@ -62,7 +63,7 @@
 }
 
 .contact-me-form__submit-button:hover {
-  font-weight: 500;
+  background-color: rgb(115, 58, 1);
 }
 
 .contact-me-form__confirmation {
@@ -72,9 +73,10 @@
   text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .contact-me-form {
     width: 500px;
+    padding: 40px;
   }
 
   .contact-me-form__title {
@@ -91,5 +93,29 @@
 
   .contact-me-form__submit-button {
     font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-me-form {
+    width: 650px;
+    padding: 60px;
+  }
+
+  .contact-me-form__title {
+    font-size: 35px;
+  }
+
+  .contact-me-form__item-label {
+    font-size: 16px;
+  }
+
+  .contact-me-form__input {
+    height: 30px;
+  }
+
+  .contact-me-form__submit-button {
+    font-size: 22px;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   }
 }
