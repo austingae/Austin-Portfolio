@@ -7,10 +7,6 @@ import ProjectTemplate from './Components/ProjectTemplate';
 import ContactUs from './Components/ContactUs';
 import AboutMe from './Components/AboutMe';
 
-import USCSSOWebsiteImage from "./Images/uscsso.png";
-
-import Website from "./Components/Website";
-
 function App() {
 
   return (
@@ -29,19 +25,19 @@ function App() {
           <div className='my-projects__grid-container'>
             <ProjectTemplate 
               title='US-China Strategic Studies Organization Website' 
-              description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.' 
-              website='https://austingae.github.io/uscsso-website/' 
-              code='https://github.com/austingae/uscsso-website'
-            />
-            <ProjectTemplate 
-              title='Project Title' 
-              description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.' 
+              description='' 
               website='' 
               code=''
             />
             <ProjectTemplate 
-              title='Project Title' 
-              description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.' 
+              title='Elliott' 
+              description='Named after my International Affairs department, Elliott provides you with the most recent international news of various regions of the world and special topics. In this project, I used HTML, CSS, SASS, JSON, and Javascript along with the NEWS API on the React-based Next.js.'
+              website='https://international-affairs-news.vercel.app/' 
+              code='https://github.com/austingae/International-Affairs-News'
+            />
+            <ProjectTemplate 
+              title='ECommerce Website (07/15-07/23)' 
+              description='https://www.youtube.com/watch?v=4mOkFXyxfsU&ab_channel=JavaScriptMastery' 
               website='' 
               code=''
             />

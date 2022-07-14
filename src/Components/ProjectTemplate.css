@@ -14,9 +14,15 @@
   border-style: solid;
 }
 
+.project__title {
+  height: 50px;
+}
+
 .project__description {
   font-size: 14px;
   margin: 0.5rem 0rem 2rem 0rem;
+
+  height: 150px;
 }
 
 .project__buttons-container {
