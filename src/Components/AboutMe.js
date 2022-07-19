@@ -2,7 +2,7 @@ import React from 'react'
 
 import profileImage from '../Images/profile-image.jpeg';
 
-import myResume from '../PDF/my-resume.pdf'
+import myResume from '../PDF/my-official-resume.pdf';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -23,7 +23,7 @@ const AboutMe = () => {
   return (
     <div className='about-me'>
       <h1 className='about-me__my-name'>Hello! <br></br>I am Austin Gae.</h1>
-      <img className='about-me__profile-image' src={profileImage}/>
+      <img className='about-me__profile-image' src={profileImage} />
       <p className='about-me__my-short-description'>I am a front-end web developer, who understands HTML, CSS and SASS, Javascript, ReactJS, and JSON to create awesome websites. I am also comfortable with Git and GitHub to work with other developers in a team. Now, don't just take my word for it, take a look at my projects! </p>
       <div className='about-me__social-media-container'> 
         <a href='https://www.linkedin.com/in/austin-gae/'>

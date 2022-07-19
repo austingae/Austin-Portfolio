@@ -40,19 +40,7 @@ function App() {
               description='USCSSO, also known as the US-China Strategic Studies Organization, is a club at my university. This project will be used by the club once it is finished.'
               website='https://uscsso.vercel.app/' 
               code='https://github.com/austingae/USCSSO'
-            />
-            <ProjectTemplate 
-              title='Project Title' 
-              description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.' 
-              website='' 
-              code=''
-            />
-            <ProjectTemplate 
-              title='Project Title' 
-              description='Cupidatat Lorem cillum nisi irure aute reprehenderit deserunt est irure in laborum anim ea. Nulla tempor sunt id quis id. Dolore et enim incididunt non adipisicing dolor fugiat tempor ea incididunt eu eiusmod do ex.' 
-              website='' 
-              code=''
-            />                                                    
+            />                                              
           </div>
         </div>
       </section>
