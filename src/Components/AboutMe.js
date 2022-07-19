@@ -1,7 +1,8 @@
 import React from 'react'
 
 import profileImage from '../Images/profile-image.jpeg';
-import myResume from '../PDF/Resume.pdf';
+
+import myResume from '../my-resume.pdf';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -54,15 +55,16 @@ const AboutMe = () => {
           </a>
       </div>
       <div className='about-me__resume-container'>
-        <a href={myResume} target='_blank'>
+        <a href={myResume} target='_blank' rel='noreferrer'>
           <FontAwesomeIcon 
           className='about-me__resume' 
           icon={faFile} size="2x" 
           onMouseOver={() => {setIsResumeIconHover(true);}} 
           onMouseOut={() => {setIsResumeIconHover(false)}} 
-          bounce={isResumeIconHover} />
+          bounce={isResumeIconHover}
+          />
         </a>
-        <a className='about-me__view-my-resume' href={myResume} target='_blank'>View my Resume</a>
+        <a className='about-me__view-my-resume' href={myResume} target='_blank' rel='noreferrer'>View my Resume</a>
       </div>
 </div>
   )
