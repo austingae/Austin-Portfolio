@@ -2,7 +2,7 @@ import React from 'react'
 
 import profileImage from '../Images/profile-image.jpeg';
 
-import myResume from '../PDF/austin-gae-resume.pdf'
+import myResume from '../PDF/my-resume.pdf'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
